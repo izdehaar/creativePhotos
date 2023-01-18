@@ -1,9 +1,4 @@
-<?php
-// CONNECTION TO DATABASE
-$mysqli = new mysqli("localhost", "root", "", "creative_photos");
-// echo $mysqli ? "connected" : "not connected";
-// CONNECTION TO DATABASE
-ob_start();
+<?php require_once("afrid_creative_photos/required/config.php");
 ?>
 <!doctype html>
 <html lang="en" class="no-js">
@@ -14,7 +9,7 @@ ob_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- FAVICON -->
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.svg?">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.svg?">
     <!-- MDB 5 START -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css" rel="stylesheet" />
     <!-- Font Awesome -->
@@ -47,7 +42,7 @@ ob_start();
                 <div class="container">
                     <!-- Navbar brand -->
                     <a class="navbar-brand me-2" href="index.php">
-                        <img src="assets/img/navbar/logo.svg" class="" height="50" width="180" alt="Logo" loading="lazy" />
+                        <img src="assets/images/navbar/logo.svg" class="" height="50" width="180" alt="Logo" loading="lazy" />
                     </a>
 
                     <!-- Toggle button -->
