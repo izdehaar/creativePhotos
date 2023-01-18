@@ -25,6 +25,10 @@
                 $row = $run->fetch_assoc();
                 echo $row['content'];
                 ?>
+                <div class="">
+                    <p class="fw-bold fa-lg text-dark">Heading</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nostrum voluptates reiciendis explicabo reprehenderit sapiente, suscipit amet nesciunt dolores, quod cumque ipsa magni ullam asperiores similique libero ut, nihil repellendus.</p>
+                </div>
             </div>
         </div>
     </div>
